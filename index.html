@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gobbiespeak Translator</title>
+    <link type="text/css" rel="stylesheet" href="static/css/simple-grid.min.css">
+    <link type="text/css" rel="stylesheet" href="static/css/style.css">
+    <script type="text/javascript" src="static/js/gobbiespeak.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 center">
+            <img src="static/img/gobbie.png" alt="Gobbie" class="gobbie" />
+          <h1 class="header">Gobbiespeak Translator</h1><p>With this nettysheet uplander can changemake uplanderspeak scribblywrites to gobbiespeak. Type uplander scribblywrites in box and press pushyknob. Have goodtimes!</p>
+        </div>
+          <div class="col-12">
+            <label for="name">First name to use (gobbiespeak is always in third person)</label><input id="name">
+          <!-- This content will take up 3/12 (or 1/4) of the container -->
+        </div>
+        <div class="col-12">
+            <label for="entry">Text to translate</label>
+            <textarea id="entry"></textarea>
+            <button onclick="doTranslation()" class="actionbutton">Make Gobbiespeak!</button>
+          <!-- This content will take up 3/12 (or 1/4) of the container -->
+        </div>
+        <div class="col-12">
+          <!-- This content will take up 6/12 (or 1/2) of the container -->
+            <label for="result">Resulting text</label>
+            <textarea id="result"></textarea>
+        </div>
+          <div class="col-12 footer">
+              <p class="footer">Horribly hacked together by <a href="https://noctis.info/">Noctis</a>. - Using <a href="https://docs.google.com/spreadsheets/d/1sRoBAev1nb2cC4anigspCTbRONkppPvcrJpYDCF7nSM/edit#gid=811891527">Roefizzlebeef's spreadlist for uplander learnytimes</a> and some creative freedom.<br />No data is sent over the internet, no data is being harvested.</p><br />
+              This website is NOT associated, affiliated with or endorsed by Square Enix.<br /> FFXIV, Final Fantasy and Final Fantasy XIV are registered trademarks of Square Enix Holdings Co., Ltd.
+          </div>
+      </div>
+    </div>
+</body>
+</html>

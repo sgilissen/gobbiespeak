@@ -1,0 +1,48 @@
+.body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url("../img/bg.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+  width: 100%;
+  padding: 4px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.actionbutton {
+    width: 100%;
+    height: 40px;
+}
+
+.gobbie {
+    text-align: center;
+    height: 200px;
+}
+
+.header {
+    text-align: center;
+    color: #ff0000;
+    text-shadow: 2px 2px #000000;
+}
+
+.center {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+}

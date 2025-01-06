@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:alpine
+    volumes:
+      - gobbiespeak:/usr/share/nginx/html
+    ports:
+      - "4444:80"
+
+volumes:
+  gobbiespeak:
+    driver: local
+    driver_opts:
+      type: none
+      device: /var/lib/docker/volumes/gobbiespeak
+      o: bind
